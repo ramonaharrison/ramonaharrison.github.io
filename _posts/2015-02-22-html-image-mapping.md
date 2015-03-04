@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Building HTML Image Maps
+title:      Building an HTML Image Map
 date:       2015-02-22 11:21:29
-summary:    I attended the Access Code application workshop and figured out how to divide a single image into many clickable regions using images maps.
+summary:    I attended the Access Code application workshop and figured out how to divide a single image into many clickable regions using an image map.
 categories: accesscode html tutorial
 ---
 <p>I learned a number of neat HTML/CSS tricks at this weekend's Access Code application workshop. During the presentation, we were encouraged to advance our knowledge by checking out the source code behind some of the interesting HTML elements that we encounter across the web. With that goal in mind, I was intrigued into figuring out the inner workings of <a href="http://www.w3schools.com/">w3schools.com's</a> cool, interactive hexagonal hexadecimal <a href="http://www.w3schools.com/tags/ref_colorpicker.asp">HTML Color Picker</a>:
