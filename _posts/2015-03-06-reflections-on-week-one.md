@@ -32,6 +32,6 @@ categories: accesscode reflections
 
 <p>On our program schedule, the first few months of Access Code are about learning Java and mastering the basics of app building. Saturday's talks by <a href="https://twitter.com/PaolaNotPaolo">Paola</a> and <a href="https://twitter.com/kpgalligan">Kevin</a> emphasized how much there is to learn beyond the paper schedule.</p>
 
-<p>Kevin iterated the importance that networking will play in our careers. While coding chops are important, it'll be the community around us that ultimately determines our success. Going to events, participating in meetups, and building a presence on social media are just a few things we can do to enrich that community.</p>
+<p>Kevin iterated the importance that networking will play in our careers. While coding chops are important, it'll be the community around us that ultimately determines our success. Going to events, participating in meetups, and building a presence on social media are just a few things we can do to enrich that network.</p>
 
 <p>Paola's story was especially inspirational to me. I can totally relate to feeling bored and lost in a job, and how far-fetched it can seem to dream for something better. Getting into Access Code was the first step for Paola, and her adaptability and perseverance kept her going to where she is today.</p>
