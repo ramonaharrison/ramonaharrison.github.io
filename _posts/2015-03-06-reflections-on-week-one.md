@@ -26,7 +26,7 @@ categories: accesscode reflections
 
 <p>By the time I arrived, I was pretty drained. It was hard to focus on the code in front of me, which made me a less-than-ideal partner for pair programming.</p>
 
-<p>Optimizing my weekdays is key to getting the most out of Access Code. The most obvious steps are sleeping and eating well. I'm looking forward to spring weather so I can start biking again, which should make the commute more pleasant. And in next couple of months, I'll look into cutting back my schedule at work to create more time for learning.</p>
+<p>Optimizing my weekdays is key to getting the most out of Access Code. The most obvious steps are sleeping and eating well. I'm looking forward to spring weather so I can start biking again, which should make the commute more pleasant. And in the next couple of months, I'll look into cutting back my schedule at work to create more time for learning.</p>
 
 ### 3. Learning to code is only part of it.
 
