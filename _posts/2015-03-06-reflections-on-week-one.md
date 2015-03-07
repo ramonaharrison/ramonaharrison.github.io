@@ -7,7 +7,7 @@ categories: accesscode reflections
 
 ---
 
-### 1. It's an amazing opportunity
+### 1. It's an amazing opportunity.
 <p>When I found out I had been accepted to Access Code, I felt a little like I had won the lottery. I had been lost in the rabbit hole of self-study for so long. Each new piece of code knowledge increased my curiosity but also my awareness of how much <i>more</i> there was to learn. I had no idea how to steer my pursuit in a direction that would ever turn into a career. </p>
 
 <p>Enter: Access Code. We had our first classes over the weekend, and Saturday and Sunday were both such special days. It was so much fun to meet the students, TA's and staff and to begin to learn the stories that brought us all together.</p>
@@ -28,7 +28,7 @@ categories: accesscode reflections
 
 <p>Optimizing my weekdays is key to getting the most out of Access Code. The most obvious steps are sleeping and eating well. I'm looking forward to spring weather so I can start biking again, which should make the commute more pleasant. And in next couple of months, I'll look into cutting back my schedule at work to create more time for learning.</p>
 
-### 3. Learning to code is only part of it
+### 3. Learning to code is only part of it.
 
 <p>On our program schedule, the first few months of Access Code are about learning Java and mastering the basics of app building. Saturday's talks by <a href="https://twitter.com/PaolaNotPaolo">Paola</a> and <a href="https://twitter.com/kpgalligan">Kevin</a> emphasized how much there is to learn beyond the paper schedule.</p>
 
