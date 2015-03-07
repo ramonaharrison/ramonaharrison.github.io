@@ -30,7 +30,7 @@ categories: accesscode reflections
 
 ### 3. Learning to code is only part of it
 
-<p>On our program schedule, the first few months of Access Code are about learning Java and mastering the basics of app building. Saturday's talks by Paola and Kevin emphasized how much there is to learn beyond the paper schedule.</p>
+<p>On our program schedule, the first few months of Access Code are about learning Java and mastering the basics of app building. Saturday's talks by [Paola](https://twitter.com/PaolaNotPaolo) and [Kevin](https://twitter.com/kpgalligan) emphasized how much there is to learn beyond the paper schedule.</p>
 
 <p>Kevin iterated the importance that networking will play in our careers. While coding chops are important, it'll be the community around us that ultimately determines our success. Going to events, participating in meetups, and building a presence on social media are just a few things we can do to enrich that community.</p>
 
