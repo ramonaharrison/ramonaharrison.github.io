@@ -8,7 +8,7 @@ categories: accesscode reflections
 ---
 
 ### 1. It's an amazing opportunity
-<p>When I found out I had been accepted to Access Code, I felt a little like I had won the lottery. I had been lost in the rabbit hole of self-study for so long. Each new piece of code knowledge increased my curiosity but also my awareness of how much <i>more</i> there was to learn. I had no idea how to steer my pursuit in a direction that would ever turn it into a career. </p>
+<p>When I found out I had been accepted to Access Code, I felt a little like I had won the lottery. I had been lost in the rabbit hole of self-study for so long. Each new piece of code knowledge increased my curiosity but also my awareness of how much <i>more</i> there was to learn. I had no idea how to steer my pursuit in a direction that would ever turn into a career. </p>
 
 <p>Enter: Access Code. We had our first classes over the weekend, and Saturday and Sunday were both such special days. It was so much fun to meet the students, TA's and staff and to begin to learn the stories that brought us all together.</p>
 
