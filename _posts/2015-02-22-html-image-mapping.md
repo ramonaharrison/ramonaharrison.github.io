@@ -98,3 +98,4 @@ categories: accesscode html tutorial
 
    <p>Of course, <a href="http://www.w3schools.com/tags/ref_colorpicker.asp">w3schools.com’s Color Picker</a> uses JavaScript to fancy things up a bit, allowing events to happen seamlessly on the page rather than linking out. I'm especially curious to figure out how the "Darker/light shades:" selection area is generated. Still, even the basic HTML image-map is pretty cool. I’m looking forward to experimenting with what I've learned for some fun and unusual web designs.
    </p>
+   <br>
