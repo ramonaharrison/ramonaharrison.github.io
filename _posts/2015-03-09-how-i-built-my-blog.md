@@ -144,3 +144,5 @@ When you're ready, you can delete the sample posts and start pushing your own co
   * Find a [Jekyll Theme](http://jekyllthemes.org/)
   * From Tom Preston-Werner, creator of Jekyll: [Blogging Like a Hacker](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html)
   * GitHub Guide to [Markdown](https://help.github.com/articles/markdown-basics/)
+
+<br>
