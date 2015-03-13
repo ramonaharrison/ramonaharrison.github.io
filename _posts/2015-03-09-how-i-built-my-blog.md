@@ -9,7 +9,7 @@ published: true
 
 This site is built with [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/). In this post, I'll talk about what that means and how you can create your own free, customizable blog using these tools.
 
-[Jekyll](https://github.com/jekyll/jekyll) is an open-source generator for creating simple websites and blogs. You write content in [Markdown](https://help.github.com/articles/markdown-basics/). Jekyll takes that content, runs it through a [template](http://jekyllrb.com/docs/templates/), and produces a static HTML/CSS website. Don't worry if that seems mysterious. Once you start playing around with Jekyll things become clearer. Jekyll is the engine behind GitHub Pages.
+[Jekyll](https://github.com/jekyll/jekyll) is an open-source generator for creating simple websites and blogs. You write content in [Markdown](https://help.github.com/articles/markdown-basics/). Jekyll takes that content, runs it through a [template](http://jekyllrb.com/docs/templates/), and produces a static HTML/CSS website. Don't worry if it seems mysterious. Once you start playing around with Jekyll things become clearer. Jekyll is the engine behind GitHub Pages.
 
 [GitHub Pages](https://help.github.com/articles/what-are-github-pages/) is a free service that allows GitHub users to create their own website located at the URL <i>http://yourusername.github.io</i>. To activate GitHub Pages, all you need to do is create a repository in your account named <i>yourusername.github.io</i>. GitHub will recognize that you're creating a website and serve files in this repository automatically.
 
