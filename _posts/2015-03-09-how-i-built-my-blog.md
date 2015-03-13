@@ -9,7 +9,7 @@ published: true
 
 This site is built with [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/). In this post, I'll talk about what that means and how you can create your own free, customizable blog using these tools.
 
-[Jekyll](https://github.com/jekyll/jekyll) is an open-source generator for creating simple websites and blogs. You write content in [Markdown](https://help.github.com/articles/markdown-basics/). Jekyll takes that content, runs it through a [template](http://jekyllrb.com/docs/templates/), and produces a static HTML/CSS website. Don't worry if it seems mysterious. Once you start playing around with Jekyll things become clearer. Jekyll is the engine behind GitHub Pages.
+[Jekyll](https://github.com/jekyll/jekyll) is an open-source generator for creating simple websites and blogs. You write content in [Markdown](https://help.github.com/articles/markdown-basics/). Jekyll takes that content, runs it through a [template](http://jekyllrb.com/docs/templates/), and produces a static HTML/CSS website. If it seems mysterious now, don't worry. Once you start playing around with Jekyll things become clearer. Jekyll is the engine behind GitHub Pages.
 
 [GitHub Pages](https://help.github.com/articles/what-are-github-pages/) is a free service that allows GitHub users to create their own website located at the URL <i>http://yourusername.github.io</i>. To activate GitHub Pages, all you need to do is create a repository in your account named <i>yourusername.github.io</i>. GitHub will recognize that you're creating a website and serve files in this repository automatically.
 
@@ -25,7 +25,7 @@ This site is built with [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https:
 
 ### How to Create a Blog
 
-Jekyll is written in [Ruby](https://www.ruby-lang.org/en/). If you know some Ruby, that's awesome, but it's absolutely not a prerequisite to get your blog up and running. These are the steps I followed on my MacBook running OS X Yosemite. I was doing research at the same time, so it took me about 2 hours from start to finish. It may take more or less time depending on the theme you choose and if you run into any unexpected errors.
+Jekyll is written in [Ruby](https://www.ruby-lang.org/en/), but knowing Ruby is absolutely not a prerequisite to get your blog up and running. These are the steps I followed on my MacBook running OS X Yosemite. I was doing research at the same time, so it took me about 2 hours from start to finish. It may take more or less time depending on the theme you choose and if you run into any unexpected errors.
 
 #### 1) Get the tools
 We'll be doing a lot of work in the terminal. Let's make sure we have all the tools we need:
@@ -44,7 +44,7 @@ RubyGems is a package manager that makes it easy to download and install Ruby pr
 #### 3) Choose a theme and fork it to your own repository
 Here comes the fun part. It's time to choose a theme and fork it to your own repository on GitHub. <i>(At this point, if you don't have a GitHub account, you'll want to [create one](https://github.com/))</i>
 
-  * Search for a theme online. I found my theme at [jekyllthemes.org](jekyllthemes.org), which I would recommend, but you can find others by googling 'jekyll themes'. Don't worry, you can always change your theme down the road.
+  * Search for a theme online. I found my theme at [jekyllthemes.org](jekyllthemes.org). You can find even more by googling 'jekyll themes'. You can always change your theme down the road.
   * Once you've found a theme you like, go to its GitHub repository.
   * In the upper left corner, click on the 'Fork' button. This will create your own forked copy of the repository.
   * After forking, click on the 'Settings' button midway down the page on the right side. You'll see a box to rename your new repository. Change the name to <i>yourusername.github.io</i> (for example, <i>ramonaharrison.github.io</i>) and click the 'Rename' button.
