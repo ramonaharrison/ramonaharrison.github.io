@@ -49,7 +49,7 @@ At first, my sky-building process looked something like this:
   * Fill the string with a bunch of spaces, pasting in some 'random' stars
   * Repeat
 
-When the code you're writing feels repetitious, there's probably a better way to do it, so I started thinking rethinking my process.
+When the code you're writing feels repetitious, _there's probably a better way to do it_, so I started thinking rethinking my process.
 
 I created a method called <span style="font-family:Courier" class="bg-dark-gray white">starScroll</span> that takes three arguments: <span style="font-family:Courier" class="bg-dark-gray white">int length</span>, <span style="font-family:Courier" class="bg-dark-gray white">int width</span>, and <span style="font-family:Courier" class="bg-dark-gray white">String scene</span> (a string to embed near the bottom of the scroll). Inside the method I created a new Random() object and an integer variable called <span style="font-family:Courier" class="bg-dark-gray white">starSpacing</span>, which is initialized at 80.
 
