@@ -4,12 +4,13 @@ title:      Generating a Starry Sky with java.util.Random
 date:       2015-03-20 8:00:19
 summary:
 categories: accesscode java random ascii
+published: false
 ---
 My earliest memories of interacting with a computer are of . It was a 'sideways tower' style PC, beige and boxy, with an enormous, bright-orange switch on the back that you'd toggle to power the computer on and off. It would boot to a white MS-DOS prompt on a black screen.
 
-We lived in the country in a pretty rural area. We didn't have TV. My experience of the world was pretty small. The computer was mesmerizing to me, like an alien artifact plunked down into my life.
+We lived in the country in a pretty rural area. We didn't have TV. My experience of the world was small. The computer was mesmerizing to me, and special, like an alien artifact plunked down into my life.
 
-My dad was in the merchant marine. He'd 'swap' software with other computer hobbyists on the ships, and every few months would come home from sea with a collection of 5-1/4" floppy disks loaded with new games.
+My dad was in the merchant marine. He'd 'swap' software with other computer hobbyists on the ships, and every few months would come home from sea with a new collection of DOS games on 5-1/4" floppy disks.
 
 
 I played (Commander Keen)[https://archive.org/details/msdos_Commander_Keen_1_-_Marooned_on_Mars_1990], (Cosmo's Cosmic Adventure)[http://en.wikipedia.org/wiki/Cosmo%27s_Cosmic_Adventure] and (Crystal Caves)[http://www.classicdosgames.com/online/1cc10a.html] obsessively. I also
