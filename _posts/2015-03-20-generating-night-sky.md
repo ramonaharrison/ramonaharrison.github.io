@@ -110,5 +110,3 @@ public static void starScroll(int length, int width, String scene) {
     }
 
     {% endhighlight %}
-
-    <br><br>
