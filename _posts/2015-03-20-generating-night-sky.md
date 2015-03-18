@@ -2,7 +2,7 @@
 layout:     post
 title:      Generating a Starry Sky with java.util.Random
 date:       2015-03-20 8:00:19
-summary:  An introduction to my first text-based adventure game and a method I built to generate a starry sky effect in the console.
+summary:  An introduction to Stars, my first text-based adventure game, and a method I built for generating a starry sky effect in the console.
 categories: accesscode java random ascii
 published: true
 ---
