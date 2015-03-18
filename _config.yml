@@ -2,7 +2,7 @@
 title:       Ramona Harrison
 email:       ramonaliza@gmail.com
 author:      ramona harrison
-description: "Personal blog where I talk about my experiences coding and learning."
+description: "I talk about my experiences coding and learning."
 baseurl:     ""
 url:         "http://ramonaharrison.github.io"
 
@@ -13,6 +13,7 @@ google_analytics:
 animated:           false
 show_related_posts: false
 show_post_footers:  false
+excerpt_separator: ""
 
 # Disqus post comments
 # (leave blank to disable Disqus)
