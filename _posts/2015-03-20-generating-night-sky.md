@@ -60,7 +60,7 @@ The outer loop repeats the inner loop <span style="font-family:Courier" class="b
 Here's the effect:
 
 <br>
-![starScroll](https://ramonaharrison.github.io/_site/images/stars.gif)
+![starScroll](https://ramonaharrison.github.io/images/starscroll.gif)
 <br>
 
 And here's the code all together:
