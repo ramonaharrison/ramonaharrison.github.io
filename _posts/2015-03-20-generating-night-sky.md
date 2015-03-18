@@ -20,7 +20,7 @@ That's why I was so excited for last week's Access Code assignment, which was to
 
 My game, [Stars](https://github.com/ramonaharrison/HW_03-14), is about an interstellar traveller who crash lands on Earth and needs to figure out how to fix her spaceship so she can return home.
 
-Inspired by [this excellent article](http://www.washingtonpost.com/posteverything/wp/2015/03/04/im-a-12-year-old-girl-why-dont-the-characters-in-my-apps-look-like-me/), written by a twelve-year-old girl asking 'Why don't the characters in my apps look like me?', my main character is a girly alien who has a penchant for solo travel and DIY repairs.
+Inspired by [this excellent article](http://www.washingtonpost.com/posteverything/wp/2015/03/04/im-a-12-year-old-girl-why-dont-the-characters-in-my-apps-look-like-me/) written by a twelve-year-old girl asking 'Why don't the characters in my apps look like me?', my main character is a girly alien who has a penchant for solo travel and DIY repairs.
 
 <br>
 
@@ -110,3 +110,5 @@ public static void starScroll(int length, int width, String scene) {
     }
 
     {% endhighlight %}
+
+    <br><br>
