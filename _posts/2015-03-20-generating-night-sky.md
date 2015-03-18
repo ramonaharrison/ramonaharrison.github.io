@@ -59,13 +59,11 @@ The outer loop repeats the inner loop <span style="font-family:Courier" class="b
 
 Here's the effect:
 
-<br>
 ![starScroll](https://ramonaharrison.github.io/images/starscroll.gif)
-<br>
+<br><br>
 
-And here's the code all together:
+And the code, all together:
 
-<br>
 
   {% highlight java %}
 
