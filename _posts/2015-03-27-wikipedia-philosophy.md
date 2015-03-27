@@ -17,7 +17,7 @@ Since Sunday's class was all about getting comfortable with HTTP and Java's URL 
 
 Using the same API for [HTTP.java](https://github.com/ramonaharrison/WikipediaPhilosophy/blob/master/src/nyc/c4q/ramonaharrison/HTTP.java) that we used in class, I created a new project with Main.java and HTTP.java.
 
-In Main.java, below my main() method, I created a new method called findPhilosophy(), which takes a String argument (a Wikipedia URL) and returns a String (the next Wikipedia URL):
+In Main.java, below my <span style="font-family:Courier" class="bg-dark-gray white">main()</span> method, I created a new method called <span style="font-family:Courier" class="bg-dark-gray white">findPhilosophy()</span>, which takes a <span style="font-family:Courier" class="bg-dark-gray white">String</span> argument (a Wikipedia URL) and returns a <span style="font-family:Courier" class="bg-dark-gray white">String</span> (the next Wikipedia URL):
 <br><br>
 
 {% highlight java %}
@@ -47,26 +47,26 @@ public static String findPhilosophy(String article) throws IOException {
 {% endhighlight %}
 
 <br>
-The first thing the above method does is check if the URL it's being passed is the URL of the Philosophy article. If so, it resets the counter and breaks, returning a String with the total number of links counted.
+The first thing the method above does is check if the URL it's being passed is the URL of the Philosophy article. If so, it resets the counter and breaks, returning a <span style="font-family:Courier" class="bg-dark-gray white">String</span> with the total number of links counted.
 
-If not, it next checks how many links have been counted so far. If linkCounter > 100, it resets the counter and breaks, returning a String that reports "Too far away...". This ensures that the program won't run forever if it can't find Philosophy or gets stuck in a weird loop.
+If not, it next checks how many links have been counted so far. If <span style="font-family:Courier" class="bg-dark-gray white">linkCounter > 100</span>, it resets the counter and breaks, returning a String that reports "Too far away...". This ensures that the program won't run forever if it can't find Philosophy or gets stuck in a weird loop.
 
-The next section is the real 'meat and potatoes'. Here, findPhilosophy():
+The next section is the real 'meat and potatoes'. Here, <span style="font-family:Courier" class="bg-dark-gray white">findPhilosophy()</span>:
 
   * Converts the (String) URL to a (URL) URL.
   * Goes to the URL and grabs whatever HTML it finds, storing it as an object of the class Document.
   * Parses the HTML for links, selecting the first non-parenthetical link in the actual content.
   * Builds that link up into a (String) URL, called nextLink.
   * Adds 1 to the link counter.
-  * Calls on itself, by returning findPhilosophy(nextLink).
+  * Calls on itself, by returning <span style="font-family:Courier" class="bg-dark-gray white">findPhilosophy(nextLink)</span>.
 
-This process is repeated until the first check returns true, meaning that [http://en.wikipedia.org/wiki/Philosophy](http://en.wikipedia.org/wiki/Philosophy) is reached, or until the value of linkCounter exceeds 100.
+This process is repeated until the first check returns true, meaning that [http://en.wikipedia.org/wiki/Philosophy](http://en.wikipedia.org/wiki/Philosophy) is reached, or until the value of <span style="font-family:Courier" class="bg-dark-gray white">linkCounter</span> exceeds 100.
 
 The hardest part of this project, by far, was grabbing the right 'first link' from the HTML. The [rules](http://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy#Method_summarized) specify that the link has to be non-parenthesized, non-italicized, not external, not the current page, and not a 'red link' (non-existent entry).
 
-I struggled through writing a few methods from scratch to grab the right link, but found that inconsistencies in styling across articles meant my methods were unreliable. Alex suggested trying [jsoup](http://jsoup.org/), which is a Java library designed for extracting data from HTML. I hadn't used any third-party Java libraries yet, but after I got past the initial challenge of downloading and importing the library, jsoup made grabbing the right link much easier!
+I struggled through writing a few methods from scratch to grab the right link, but found that inconsistencies in styling across articles meant my methods were unreliable. Alex suggested trying [jsoup](http://jsoup.org/), which is a Java library designed for extracting data from HTML. I hadn't used any third-party Java libraries yet, but after I got past the initial challenge of downloading and importing the library, jsoup made grabbing the right link super easy!
 
-Jsoup lets you find elements using CSS selector syntax. I used jsoup to grab all of the \<a> elements within \<p> elements (the links within the actual article content). I then selected the first one that led to /wiki/ content and wasn't language-related (e.g Greek, Latin, Old English).
+Jsoup lets you find elements using CSS selector syntax. I used jsoup to grab all of the <span style="font-family:Courier" class="bg-dark-gray white">\<a></span> elements within <span style="font-family:Courier" class="bg-dark-gray white">\<p></span> elements (the links within the actual article content). I then selected the first one that led to /wiki/ content and wasn't language-related (e.g Greek, Latin, Old English).
 <br><br>
 
 {% highlight java %}
@@ -85,8 +85,8 @@ Here's what the program looks like when you run it:
 
 ![WikipediaPhilosophy](https://ramonaharrison.github.io/images/wiki.gif)
 <br>
-
-I was learning to code on my own, in my spare time, for more than half a year before Access Code. I mostly wrote 'toy' programs: fun little puzzles that drew animations or solved math problems.
+<br>
+I was learning to code on my own, in my spare time, for more than half a year before starting Access Code. I mostly wrote 'toy' programs: fun little puzzles that drew animations or solved math problems.
 
 I'm super excited that I got this exercise to work because in a way, this is my first 'real' program: it's my first program that uses HTTP to send and receive information over the internet, and it's my first program that interacts with the world outside of my computer and brings back interesting information that would otherwise be difficult to find. Yay!
 
