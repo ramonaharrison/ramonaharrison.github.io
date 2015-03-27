@@ -88,7 +88,7 @@ Here's what the program looks like when you run it:
 
 I was learning to code on my own, in my spare time, for more than half a year before Access Code. I mostly wrote 'toy' programs: fun little puzzles that drew animations or solved math problems.
 
-I'm super excited that I got this exercise to work because in a way, this is my first 'real' program: it's my first program that uses HTTP to send and receive information over the internet, and it's my first program that interacts with the world outside of my computer and brings back interesting information that would be difficult to find without it. Yay!
+I'm super excited that I got this exercise to work because in a way, this is my first 'real' program: it's my first program that uses HTTP to send and receive information over the internet, and it's my first program that interacts with the world outside of my computer and brings back interesting information that would otherwise be difficult to find. Yay!
 
 I'm so happy that over the next few months, we're just going to keep learning more about how to make our code interact with the 'real world' to do amazing things.
 
