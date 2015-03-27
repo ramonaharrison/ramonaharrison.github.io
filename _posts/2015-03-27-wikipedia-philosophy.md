@@ -15,7 +15,7 @@ How does this work? As the [Wikipedia article on "Wikipedia: Getting to Philosop
 
 Since Sunday's class was all about getting comfortable with HTTP and Java's URL class, I decided to exercise some of my new knowledge by building a program that could tell me how many clicks any Wikipedia article is from Philosophy.
 
-Using the same API for [HTTP.java](https://github.com/ramonaharrison/WikipediaPhilosophy/blob/master/src/nyc/c4q/ramonaharrison/HTTP.java) that we used in class, I created a new project with Main.java and HTTP.java.
+Using the same API for [HTTP.java](https://github.com/ramonaharrison/WikipediaPhilosophy/blob/master/src/nyc/c4q/ramonaharrison/HTTP.java) that we used in class, I created a new project with a Main.java and HTTP.java.
 
 In Main.java, below my <span style="font-family:Courier" class="bg-dark-gray white">main()</span> method, I created a new method called <span style="font-family:Courier" class="bg-dark-gray white">findPhilosophy()</span>, which takes a <span style="font-family:Courier" class="bg-dark-gray white">String</span> argument (a Wikipedia URL) and returns a <span style="font-family:Courier" class="bg-dark-gray white">String</span> (the next Wikipedia URL):
 <br><br>
