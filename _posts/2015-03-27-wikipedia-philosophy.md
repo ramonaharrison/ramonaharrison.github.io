@@ -2,7 +2,7 @@
 layout:     post
 title:      How Many Clicks Does It Take to Get to Wikipedia's Philosophy Entry?
 date:       2015-03-27 8:00:19
-summary:  A little exercise using HTTP + Java's URL class to find the distance from any Wikipedia article to the Philosophy entry.
+summary:  An exercise using HTTP + Java's URL class to find the distance from any Wikipedia article to the Philosophy entry.
 categories: accesscode java http wikipedia
 published: true
 ---
@@ -11,7 +11,7 @@ During Sunday's Access Code class, Alex shared a cool fact with me about Wikiped
 
 This seemed too odd to be true, so my pair-programming partner Elvis and I opened a browser and immediately set about testing it. Our first article: [cat](http://en.wikipedia.org/wiki/Cat). Lo and behold, just 12 clicks later we arrived at the Philosophy article!
 
-How does this work? As the [Wikipedia article on "Wikipedia: Getting to Philosophy"](http://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy) explains, the Wikipedia Manual of Style recommends that each article should start by defining the topic of the article. This creates a likelihood that each first link will lead to a broader subject, eventually leading to the broadest of all subjects, philosophy. It's cited that as of May 2011, 94.52% of articles lead to Philosophy. The median number of clicks is just 23.
+How does this work? As the [Wikipedia article on "Wikipedia: Getting to Philosophy"](http://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy) explains, the Wikipedia Manual of Style recommends that each article should start by defining the topic of the article. This creates a likelihood that the first link will lead to a broader subject, eventually leading to the broadest of all subjects, philosophy. It's cited that as of May 2011, 94.52% of articles lead to Philosophy. The median number of clicks is just 23.
 
 Since Sunday's class was all about getting comfortable with HTTP and Java's URL class, I decided to exercise some of my new knowledge by building a program that could tell me how many clicks any Wikipedia article is from Philosophy.
 
@@ -49,7 +49,7 @@ public static String findPhilosophy(String article) throws IOException {
 <br>
 The first thing the above method does is check if the URL it's being passed is the URL of the Philosophy article. If so, it resets the counter and breaks, returning a String with the total number of links counted.
 
-If not, it next checks how many links have been counted so far. If linkCounter > 100, it resets the counter and breaks, returning a String that reports "Too far away...". This ensures that the program won't run forever if it can't find Philosophy, or gets stuck in a weird loop.
+If not, it next checks how many links have been counted so far. If linkCounter > 100, it resets the counter and breaks, returning a String that reports "Too far away...". This ensures that the program won't run forever if it can't find Philosophy or gets stuck in a weird loop.
 
 The next section is the real 'meat and potatoes'. Here, findPhilosophy():
 
@@ -79,9 +79,12 @@ public static boolean isFirstRealLink(String link) {
 {% endhighlight %}
 
 <br>
-This method can definitely be improved upon to cover more of the cases laid out in the rules, but for now the simple version has been working fine.
+This method could be improved upon to cover more of the cases laid out in the rules, but for now the simple version has been working fine.
 
 Here's what the program looks like when you run it:
+
+![WikipediaPhilosophy](https://ramonaharrison.github.io/images/wiki.gif)
+<br>
 
 I was learning to code on my own, in my spare time, for more than half a year before Access Code. I mostly wrote 'toy' programs: fun little puzzles that drew animations or solved math problems.
 
@@ -89,7 +92,7 @@ I'm super excited that I got this exercise to work because in a way, this is my 
 
 I'm so happy that over the next few months, we're just going to keep learning more about how to make our code interact with the 'real world' to do amazing things.
 
-Here's the code, all together (you can also [check out the project on my GitHub](https://github.com/ramonaharrison/WikipediaPhilosophy)):
+Here's the code, all together (you can also [look at the project on my GitHub](https://github.com/ramonaharrison/WikipediaPhilosophy)):
 
 
 {% highlight java %}
