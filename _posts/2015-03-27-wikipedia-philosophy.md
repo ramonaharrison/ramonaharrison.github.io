@@ -56,7 +56,7 @@ The next section is the real 'meat and potatoes'. Here, <span style="font-family
   * Converts the (String) URL to a (URL) URL.
   * Goes to the URL and grabs whatever HTML it finds, storing it as an object of the class Document.
   * Parses the HTML for links, selecting the first non-parenthetical link in the actual content.
-  * Builds that link up into a (String) URL, called nextLink.
+  * Builds that link up into a (String) URL, called <span style="font-family:Courier" class="bg-dark-gray white">nextLink</span>.
   * Adds 1 to the link counter.
   * Calls on itself, by returning <span style="font-family:Courier" class="bg-dark-gray white">findPhilosophy(nextLink)</span>.
 
