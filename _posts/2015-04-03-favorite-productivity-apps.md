@@ -36,7 +36,7 @@ The goal-tracking interface is a little confusing at first, but it doesn't take 
 
 Jawbone Up is the app that records and graphs data collected by a Jawbone fitness tracker. I got a pretty good deal on an UP 24 band a couple of months ago. I wanted it for the 'silent alarm' (just buzzes on your wrist to wake you up) and sleep tracking features, but have since found the activity tracking features interesting as well.
 
-I'm definitely still lacking sleep (I know this because my Jawbone band has recently began to send concerned emails, saying things like: "You've hit your sleep goal: 0 times."). Having a record of my sleep and wake times has made it easier to inch my bedtime earlier so that, maybe one day, I'll make that goal.
+I'm definitely still lacking sleep (I know this because my Jawbone band has began to send concerned emails, saying things like: "You've hit your sleep goal: 0 times."). Having a record of my sleep and wake times has made it easier to inch my bedtime earlier so that, maybe one day, I'll make that goal.
 
 It's cool to have a visual record of your sleep and activity patterns -- it makes clear how small changes to your day-to-day habits can have big results over time.
 
