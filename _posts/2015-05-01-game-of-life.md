@@ -18,4 +18,6 @@ Conway's Game of Life is a [cellular automaton](http://en.wikipedia.org/wiki/Cel
  * Any live cell with more than three live neighbors dies (overcrowding).
  * Any dead cell with exactly three live neighbors becomes live.
 
- The game must be populated with a 'seed': an initial state of live and dead cells from which subsequent generations can evolve.
+ The game must be populated with a 'seed': an initial state of live and dead cells from which subsequent generations can evolve. This is where things get interesting.
+ 
+ Once I figured out code for the game's logic and got the Processing applet running, I started to explore some of the in
