@@ -9,6 +9,8 @@ published: true
 
 The unit-0 review week gave me a chance to finally tackle a project I've been wanting to work on for a while: [a Processing sketch of Conway's Game of Life](https://github.com/ramonaharrison/game-of-life-processing).
 
+![Conway's gif](https://ramonaharrison.github.io/images/conway.gif)
+
 Conway's Game of Life is a [cellular automaton](http://en.wikipedia.org/wiki/Cellular_automaton) designed in 1970 by John Conway, a British mathematician. The idea is pretty simple: a two-dimensional space is divided up into a grid of square cells. Each cell has two possible states: live or dead. Each cell is aware of its eight neighbors (the cells which are directly or diagonally adjacent). The game steps forward in generations, and with each new generation:
 
  * Any live cell with less than two live neighbors dies (under-population).
