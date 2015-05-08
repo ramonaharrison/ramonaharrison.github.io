@@ -22,5 +22,5 @@ Conway's Game of Life is a [cellular automaton](http://en.wikipedia.org/wiki/Cel
 
  The game must be populated with a 'seed': an initial state of live and dead cells from which subsequent generations can evolve. This is where things get interesting.
  
- Once I figured out code for the game's logic and got the Processing applet running, I started to explore the [incredible seed patterns](http://www.conwaylife.com/wiki/Category:Patterns) that have been discovered. Life seed patterns are available on the internet as .lif files, which are essentially (x, y) coordinate sets indicating live cells. I wrote a method to parse these files so that I could easily download and try out new patterns.
+ Once I figured out code for the game's logic and got the Processing applet running, I started to explore some of the [incredible seed patterns](http://www.conwaylife.com/wiki/Category:Patterns) that have been discovered. Patterns are available on the internet as .lif files, which are essentially (x, y) coordinate sets indicating live cells. I wrote a method to parse these files so that I could easily download and try out new patterns.
  
