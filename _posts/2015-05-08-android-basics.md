@@ -1,18 +1,15 @@
 ---
 layout:     post
-title:      Activities, Contexts, and Views
+title:      Activities, Views, and Context
 date:       2015-05-08 12:00:19
 summary:  An overview of three fundamental Android objects.
 categories: android
 published: true
 ---
 
-
-####Context
-
 ####Activity
 
-When an activity is created, one of the first things it does (during its onCreate() method) is setup the initial View.
+When an activity is created, one of the first things it does -- during the onCreate() method -- is setup the initial View.
 
 ####View
 
@@ -35,3 +32,9 @@ The View can then be located inside an Activity by its ID:
 TextView helloWorld = (TextView) findViewById(R.id.hello_world);
 
 {% endhighlight %}
+
+<br>
+
+####Context
+
+<br>
