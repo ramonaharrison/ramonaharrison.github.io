@@ -13,7 +13,7 @@ When an activity is created, one of the first things it does -- during the onCre
 
 ####View
 
-The View class is fundamental to Android's user interface. A View object can be thought of as rectangular portion of the device screen. It can take up the whole screen or just a part of it. Its properties define how that screen portion will appear to the user. ViewGroup, which is the base class for layouts, is a subclass of View. So are TextView, ImageView, and the other widgets. Views can be associated with an integer ID, typically assigned in XML:
+The [View](http://developer.android.com/reference/android/view/View.html) class is fundamental to Android's user interface. A View object can be thought of as a rectangular portion of the device screen. It can take up the whole screen or just part of it. Its properties define how that screen portion will appear to the user. ViewGroup, which is the base class for layouts, is a subclass of View. So are TextView, ImageView, and the other widgets. Views can be associated with an integer ID, typically assigned in XML:
 
 {% highlight xml %}
 
