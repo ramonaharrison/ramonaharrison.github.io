@@ -4,7 +4,7 @@ title:      Productivity Apps That Work for Me
 date:       2015-04-03 12:00:19
 summary:  A review of some productivity and organization apps that I like for OS X, Android and Chrome.
 categories: apps productivity
-published: true
+published: false
 ---
 
 It's hard to believe we're already through the first month of Access Code. Soon we'll be wrapping up our Java basics and getting started on our first Android app.

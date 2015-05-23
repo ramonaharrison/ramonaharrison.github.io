@@ -4,6 +4,7 @@ title:      Reflections on My First Week at Access Code
 date:       2015-03-06 8:00:19
 summary:    Our first week is drawing to a close. Here are some of my reflections.
 categories: accesscode reflections
+published: false
 
 ---
 

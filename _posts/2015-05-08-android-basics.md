@@ -4,7 +4,7 @@ title:      Activities, Views, and Context
 date:       2015-05-08 12:00:19
 summary:  An overview of three fundamental Android objects.
 categories: android
-published: true
+published: false
 ---
 
 ####Activity

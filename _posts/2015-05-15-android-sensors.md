@@ -4,14 +4,14 @@ title:      Android Sensors
 date:       2015-05-15 12:00:19
 summary:  An overview of the hardware Android devices use to measure acceleration, rotation, and position.
 categories: android sensors
-published: true
+published: false
 ---
 
 One of the things I find most exciting about beginning to develop for mobile is how many ways there are for people to interact with their devices: touch, movement, rotation, illumination, camera view, sound, and of course, network connectivity...
 
 This week I started playing around with some of my phone's sensors to see what the data coming in from the hardware looks like and what sorts of things can be done with it. In this post I'll talk about the principle sensors the phone uses to calculate movement: the gyroscope, the accelerometer, and the compass.
 
-To read 
+To read
 
 {% highlight java %}
 
