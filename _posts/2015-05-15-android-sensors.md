@@ -11,6 +11,14 @@ One of the things I find most exciting about beginning to develop for mobile is 
 
 This week I started playing around with some of my phone's sensors to see what the data coming in from the hardware looks like and what sorts of things can be done with it. In this post I'll talk about the principle sensors the phone uses to calculate movement: the gyroscope, the accelerometer, and the compass.
 
+To read 
+
+{% highlight java %}
+
+TextView helloWorld = (TextView) findViewById(R.id.hello_world);
+
+{% endhighlight %}
+
 #### Gyroscope
 
 A gyroscope, in principle, is a spinning wheel or disc that is free to move to any orientation without interference from the fixed body around it. Gyroscopes are used to measure changes in orientation.
@@ -27,7 +35,7 @@ An Android device's accelerometer is electromechanical. It measures the force of
 
 #### Compass
 
-A compass reports direction with respect to magnetic north. Traditionally compasses have used magnets to make the reading. Android devices typically use very small solid-state compasses with two or three [magnetometers](http://en.wikipedia.org/wiki/Magnetometer) that a microprocessor reads to calculate magnetic north. 
+A compass reports direction with respect to magnetic north. Traditionally compasses have used magnets to make the reading. Android devices typically use very small solid-state compasses with two or three [magnetometers](http://en.wikipedia.org/wiki/Magnetometer) that a microprocessor reads to calculate magnetic north.
 
 #### Sensor Fusion
 
