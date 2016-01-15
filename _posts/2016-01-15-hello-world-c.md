@@ -7,10 +7,6 @@ categories: C basics
 published: true
 ---
 
-One of my goals for 2016 is to learn more about the lower levels of Android: how the OS source code is structured, how messages are passed down through the application framework to make things happen on the hardware, and at the bottom of it all, how the Linux kernel works.
-
-I've found some great resources
-
 Here's a guide to writing your first C program using Terminal on OS X:
 
 First, open a Terminal window and navigate to the directory you'd like to work in. Create and open a new file using nano or vim:
@@ -34,8 +30,6 @@ return 0;
 
 }
 {% endhighlight %}
-
-Going over it line by line:
 
 Now use ^O to save and ^X to exit nano. Back on the command line, compile your program:
 
