@@ -4,7 +4,7 @@ title:      Android Sensors
 date:       2015-05-15 12:00:19
 summary:  An overview of the hardware Android devices use to measure acceleration, rotation, and position.
 categories: android sensors
-published: false
+published: true
 ---
 
 One of the things I find most exciting about beginning to develop for mobile is how many ways there are for people to interact with their devices: touch, movement, rotation, illumination, camera view, sound, and of course, network connectivity...
@@ -16,7 +16,6 @@ To read
 {% highlight java %}
 
 TextView helloWorld = (TextView) findViewById(R.id.hello_world);
-
 {% endhighlight %}
 
 #### Gyroscope
