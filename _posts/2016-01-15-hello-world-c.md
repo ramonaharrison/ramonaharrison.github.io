@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      How to Write, Compile and Execute Hello World in C
+title:      Easy, Breezy Intro to C
 date:       2016-01-15 11:00:19
-summary:  A brief introduction to a basic C program.
+summary:  How to write, compile and execute a basic Hello World program in C.
 categories: C basics
 published: true
 ---
